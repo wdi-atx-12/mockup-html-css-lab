@@ -38,4 +38,3 @@ Here are some additional exercises to practice on your own!
 #### Advanced
 - [Portfolio Blog](additional-labs/advanced/moonrise-kingdom)
 
-> Instructor Note: Remove the solution code before passing this lab on to students.
