@@ -20,14 +20,13 @@ h1, h2, p, a {
  	text-decoration: none;
  }
 
- 
+
  header nav a {
  	color: #eae2de;
  	font-size: 20px;
+ 	text-align: left;
  	text-decoration: none;
  	border-bottom: 1px solid #eae2de;
- 	border-bottom-width: 1px;
- 	padding: 0px 10px;
  	margin: 0px 15px;
  	padding-bottom: 3px;
  }
