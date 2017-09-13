@@ -1,0 +1,114 @@
+/**********************
+ * Author: Matt Ray
+ * Created: 9/13/17
+ * Links to: 'starter-code/index.html'
+ ***********************/
+
+ body {
+ 	font-family: 'Lato', sans-serif;
+ 	width: 960px;
+	margin: 0 auto;
+ }
+
+h1, h2, p, a {
+	font-weight: 300;
+	width: 960px;
+}
+
+ header h1 a {
+ 	color: #f6cd7e;
+ 	text-decoration: none;
+ }
+
+
+ header nav a {
+ 	color: #eae2de;
+ 	font-size: 20px;
+ 	text-align: left;
+ 	text-decoration: none;
+ 	border-bottom: 1px solid #eae2de;
+ 	margin-right: 15px;
+ 	padding-bottom: 3px;
+ }
+
+ header nav a:hover {
+ 	color: green;
+ }
+
+article {
+	width: 900px;
+	padding-top: 30px;
+	padding-bottom: 80px;
+	border-bottom: 1px solid #eae2de;
+}
+
+
+article h2 a {
+	text-decoration: none;
+ 	color: black;
+ 	font-size: 1.2em;
+}
+
+article h3 {
+	color: #eae2de;
+	font-size: 30px;
+}
+
+article p {
+	width: 900px;
+	line-height: 150%;
+}
+
+article p::first-letter {
+ 	color: #eae2de;
+	float: left;
+	font-size: 75px;
+	line-height: 60px;
+	padding-top: 4px;
+	padding-right: 8px;
+	padding-left: 3px;
+}
+
+article h4 {
+	float: right;
+	padding-bottom: 40px;
+}
+
+article h4 a {
+	text-decoration: none;
+	color: #f6cd7e;
+	font-weight: 600;
+}
+
+footer nav {
+	padding-top: 20px;
+	color: #f6cd7e;
+}
+
+footer nav a {
+	text-decoration: none;
+	color: #f6cd7e;
+}
+
+footer p {
+	color: #eae2de;
+}
+
+/* Implementing Border-right to get rid of lines in html
+
+something like
+
+border-right: 1px solid #f6cd7e;
+
+
+*/
+
+
+
+
+
+
+
+
+
+
