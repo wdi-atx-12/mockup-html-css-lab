@@ -1,7 +1,7 @@
 body {
   font-family: "Lato", sans-serif;
   margin: 30px 30px;
-  width: 700px;
+  width: 600px;
   height: auto;
 }
 
@@ -63,7 +63,7 @@ article h3 {
 
 article p::first-letter {
   float: left;
-  font-size: 4em;
+  font-size: 5em;
   margin: 0 .1em 0 0;
   color: #eae2de;
 }
@@ -76,7 +76,7 @@ article h4 a {
 }
 
 article {
-  padding: 20px 0 0 0;
+  padding: 20px 0 40px 0;
   border-bottom: 1px solid #eae2de;
 }
 
@@ -89,6 +89,11 @@ nav a {
 
 footer {
   padding: 50px 0 0 0;
+  color: #eae2de;
+}
+
+footer nav {
+  color: #F8CE79;
 }
 
 footer, nav a {
