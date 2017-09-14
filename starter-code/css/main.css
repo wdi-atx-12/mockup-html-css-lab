@@ -26,12 +26,17 @@ h1{
 
 h2{
   font-weight: 300;
-  letter-spacing: .04em
+  font-size: 30px;
+
+}
+
+article h2{
+  margin-top: 5px;
 }
 
 h2 a{
   font-weight: 300;
-  font-size: 40px;
+  font-size: 35px;
   margin-top: 0;
 }
 
@@ -48,7 +53,7 @@ h4{
 
 article p::first-letter{
   font-size: 450%;
-  display: inline-block;
+  display: block;
   float: left;
   color: rgba(195,195,195,.8);
 }
