@@ -1,0 +1,118 @@
+body {
+  font-family: Lato;
+  font-weight: 300;
+  padding-left: 2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+ /* main title */
+h1 {
+  margin-bottom: 0;
+}
+h1 a {
+  font-weight: 300;
+  font-size: 70px;
+  color: #F9CC88;
+}
+
+/* subtitle */
+header h2 {
+  font-weight: 300;
+  margin-top: 0.7em;
+  font-size: 35px;
+}
+
+/* section heading */
+article h2 {
+  font-weight: 300;
+  padding-top: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 45px;
+}
+
+/* dates */
+h3 {
+  font-weight: 300;
+  color: #CFD2D4;
+  font-size: 45px;
+  padding-bottom: 0;
+  margin-bottom: 10px;
+}
+
+article {
+  border-bottom: 2px solid #E0E0E0;
+}
+
+article p {
+  font-size: 18px;
+}
+
+article p::first-letter {
+  font-size: 90px;
+  color: #DDDDDD;
+  float: left;
+  line-height: 70px;
+  padding: 0 10px 10px 0;
+}
+
+/* continued... */
+h4 {
+  text-align: right;
+}
+
+h4 a {
+  color: #F9CC88;
+  font-size: 18px;
+}
+
+nav {
+  height: 100%;
+  padding-top: 0;
+  padding-bottom: 30px;
+  color: rgba(0,0,0,0);
+}
+
+header nav a {
+  height: 100%;
+  color: #EFEFEF;
+  font-size: 30px;
+  margin: 0 10px 0 0;
+  padding-bottom: 4px;
+  border-bottom: medium solid #EFEFEF;
+  transition: 200ms;
+}
+
+header nav a:hover, header nav a:focus {
+  color: gray;
+  border-bottom-color: gray;
+}
+
+footer {
+  font-size: 18px;
+  color: #DDDDDD;
+}
+
+footer nav {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+footer a {
+  color: #F9CC88;
+  border-right: 2px solid #E0E0E0;
+  text-decoration: none;
+  padding: 0 10px 0 0;
+  transition: 200ms;
+}
+
+footer a:hover, footer a:focus {
+  font-weight: bold;
+}
+
+article img {
+  width: 100%;
+}
