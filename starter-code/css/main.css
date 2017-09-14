@@ -1,0 +1,76 @@
+body {
+  background-color: white;
+  font-family: "Lato", sans-serif;
+  padding-left: 35px;
+  border-left: 5px solid #bababa;
+
+}
+
+h1 a {
+  color: #f2c204;
+  font-size: 50px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 25px;
+  padding-bottom: 0px;
+}
+
+h2 a {
+  color: #000000;
+  text-decoration: none;
+  padding-top: 0px;
+  font-size: 35px;
+}
+
+nav a {
+  color: #bababa;
+  font-size: 20px;
+  padding: 0 10px 20px 0;
+}
+
+h3 {
+  color: #bababa;
+  font-weight: 300;
+  font-size: 35px;
+}
+
+h4 a {
+  color: #f2c204;
+}
+
+article p::first-letter {
+  color: #bababa;
+  font-size: 75px;
+  float: left;
+  padding: 4px 8px 3px 0;
+}
+
+p {
+  color: #6d6c69;
+}
+
+article {
+  border-bottom: 1px solid #bababa;
+}
+
+footer a {
+  color: #f2c204;
+}
+
+footer p {
+  padding-bottom: : 20px;
+  color: #bababa;
+}
+
+footer nav {
+  padding-top: 40px;
+}
+
+footer nav a {
+  font-size: 16px;
+  padding-right: 3px;
+}
