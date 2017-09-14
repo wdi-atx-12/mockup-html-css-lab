@@ -21,6 +21,11 @@ header nav a {
   border-bottom: 1px solid #eae2de;
 }
 
+header nav a:hover {
+  font-size: 125%;
+  font-weight: 700;
+}
+
 h1, a {
   color: #F8CE79;
   text-decoration: none;
@@ -100,3 +105,19 @@ footer, nav a {
   font-size: 16px;
   text-decoration: none;
 }
+
+
+/*
+in order to eliminate need for | in footer,
+i would modify my css code to:
+1. remove | from HTML file
+2. remove footer nav {...
+            }
+3. change lines 104-107 to (or to something very similar to):
+    footer, nav a {
+      font-size: 16px;
+      text-decoration: none;
+      padding: 0 10px 0 0;
+      border-right: 1px solid #eae2de;
+    }
+*/
