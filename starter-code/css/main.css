@@ -1,10 +1,10 @@
 body {
   border-left:5px #ccc solid;
-  margin:0px;
-  font-family: comic sans, san-serif;
+  margin:0 0 0 5px;
+  font-family: Lato;
 }
 
-header  {
+header {
   max-width:700px;
   padding-left:24px;
 }
@@ -55,11 +55,9 @@ h2 {
   -webkit-margin-end: 0px;
   font-weight:200;
   color: gray;
-  font-family: comic sans, san-serif;
 }
 
 h2 > a {
-  font-family: comic sans, san-serif;
   text-decoration:none;
   color:#707070;
   font-weight:150;
@@ -87,7 +85,6 @@ nav a {
 }
 
 p {
-  font-family: comic sans, san-serif;
   font-size:16px;
   margin-top:7px;
   font-weight:200;
@@ -107,18 +104,15 @@ footer > nav a {
 }
 
 footer > p {
-  font-family: comic sans, san-serif;
   font-size:16px;
   margin-top:7px;
   font-weight:200;
   color: #A8A8A8;
   text-align:justify;
-
 }
 
-
 article > p::first-letter {
-  display:inline-flex;
+  display:block;
   font-size: 75px;
   float:left;
   margin-right:4px;
@@ -128,6 +122,5 @@ article > p::first-letter {
   font-weight:100;
   text-align:left;
   vertical-align: top;
-  font-family:arial, san-serif;
 
 }
