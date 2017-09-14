@@ -1,0 +1,86 @@
+body{
+	font-family: Lato;
+	font-weight: normal;
+	color: black;
+	padding-left: 50px;
+	border-left: rgba(0,0,0,.4) 5px solid;
+	margin: 0 25% 0 25%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+article img{
+	width: 100%
+}
+h1 a, h2 a{
+	text-decoration: none;
+	font-weight: normal;
+	color:black;
+}
+h1 a{
+	font-size: 50px;
+	color: orange;
+}
+h2{
+	font-size:35px;
+	font-weight: normal;
+}
+header nav{
+	font-size: 25px;
+}
+header nav a{
+	color: rgba(0,0,0,.2);
+	text-decoration: none;
+	padding-right: 10px;
+}
+a:hover{
+	color: rgba(0,0,0,.7);
+	transition: .5s;
+}
+h3{
+	padding: 50px 0 0 0;
+	font-size: 35px;
+	font-weight: normal;
+	color: rgba(0,0,0,.3);
+}
+article{
+	border-bottom: grey 1px solid;
+}
+article p{
+	text-align: justify;
+	font-size: 20px;
+	line-height: 1.5;
+}
+article p:first-letter{
+	color: rgba(0,0,0,.3);
+	font-size: 5em;
+	float: left;
+	line-height: 60px;
+	padding: 4px 8px 0 3px;
+}
+h4{
+	text-align: right;
+}
+h4 a{
+	text-align: right;
+	text-decoration: none;
+	color: orange;
+}
+
+footer{
+	margin-top: 50px;
+}
+footer nav a{
+	color: orange;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: normal;
+}
+footer nav a:not(.ignore){
+	border-right: black solid 1px;
+	padding: 0 2.5px;
+}
+footer p{
+	font-size: 20px;
+	color: rgba(0,0,0,.3);
+}
+	
